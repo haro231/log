@@ -18,7 +18,7 @@
 <form method = "post" action ="login.php">
 
     <h5>username: <input type = "text" name = "username" placeholder="username"></h5>
-    <h5>Age: <input type = "password" name="password" placeholder="password"></h5>
+    <h5>password: <input type = "password" name="password" placeholder="password"></h5>
     <input type = "submit" name = "submit" value=" Submit">
 
     <div class = "error"> <?php //echo $error?> <?php //echo $username; echo $password?></div>
