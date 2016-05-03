@@ -19,7 +19,7 @@
 
     <h5>username: <input type = "text" name = "username" placeholder="username"></h5>
     <h5>password: <input type = "password" name="password" placeholder="password"></h5>
-    <input type = "submit" name = "submit" value=" Submit">
+    <input type = "submit" name = "submit" value=" login">
 
     <div class = "error"> <?php //echo $error?> <?php //echo $username; echo $password?></div>
 </div>
