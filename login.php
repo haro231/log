@@ -22,7 +22,7 @@ else {
     if (mysqli_num_rows($result) == 1) {
         header("location: home.php");
     } else {
-        echo "Incorrect username or password" . mysqli_error($result);
+        echo "Incorrect username or password" . mysqli_error();
     }
 }
 ?>
