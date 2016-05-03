@@ -15,8 +15,8 @@ else
 
 }
 
-$username = $_POST [username];
-$password = $_POST [password];
+$username = $_POST ['username'];
+$password = $_POST ['password'];
 
 $sql = "SELECT uid FROM users WHERE username ='$username' and password = '$password'";
 
