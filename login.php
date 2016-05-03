@@ -26,7 +26,7 @@ if(mysqli_num_rows($result) == 1){
     header("location: home.php");
 }
 else{
-    echo "Incorrect username or password.";
+    echo "Incorrect username or password" . mysqli_errno($result);
 }
 ?>
 
