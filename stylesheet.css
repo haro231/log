@@ -1,0 +1,108 @@
+body{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    margin: 30px;
+}
+form>label{
+    display: block;
+    width: 100px;
+    float: left;
+}
+
+#logo{
+    width: 300px;
+}
+
+#title{
+    margin-top: 10px;
+}
+
+header{
+    border-color: cornflowerblue;
+    border-style: dotted;
+}
+
+#bugitem{
+    width: 576px;
+    display: block;
+    padding: 10px 10px;
+}
+
+#bugitem>p{
+    width: 576px;
+    border-bottom: 1px solid black;
+}
+
+#bugitem>h3{
+
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#bugitem>h5{
+    margin-bottom: 10px;
+}
+
+header>#title>#io{
+    float: left;
+}
+
+header>#title>#io>h1{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+header>#title>h1{
+
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+header>#title>h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+nav>ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav>ul>li{
+    margin: 10px;
+    margin: 20px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px 30px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+nav>ul>li>a:hover{
+    color: deepskyblue;
+}
+
+footer{
+    background-color: cornflowerblue;
+    padding: 10px;
+}
+
+footer>p{
+    max-width: 850px;
+    text-align: center;
+    color: white;
+}
